@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #4d4d4d;
+    color: rgb(255, 0, 234);
+    overflow: auto;
+    border-bottom: 3px solid rgb(255, 0, 234); 
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.titulo {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.header .navbar li {
+    float: left;
+    margin-left: 13px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color:rgb(255, 255, 255);
+} 
+
+
+.banner{
+    text-align: center;
+    background-color: lightcyan;
+    background-image: url(../img/noite-estrelada-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.banner h1{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.banner h3{
+    color: black;
+}
+
+.saiba-mais button{
+    border: 0;
+    background-color: rgb(255, 0, 234);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.saiba-mais { 
+    text-align: center;
+    background-color: rgb(42, 26, 129);
+    height: 90px;
+}
+
+.box img{
+    height: 100px;
+}
+
+.box {
+   margin-top: 10px;
+   overflow: auto;
+}
+
+.box-item{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(251, 244, 255);
+    height: 90px;
+}
+
+.footer h4{
+    margin: 0;
+    padding-top: 38px;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(252, 134, 242, 0.781)
+}
+a:hover{
+    font-weight: 700;
+}
+
+.pag-login{
+    background-color: lightblue;
+}
+
+.box-login{
+    background-color: lightblue;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 7px 13px 1px grey;
+}
+
+.pag-login h1{
+    margin: 0;
+}
+button{
+    border-radius: 100px;
+}
